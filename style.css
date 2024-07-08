@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*  Navbar */
+.upper-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  border-bottom: 0.5px solid rgb(205, 205, 205);
+}
+.upper-part i {
+  margin-left: 100px;
+  font-size: 30px;
+}
+.upper-part .subscribe a {
+  margin-right: 120px;
+  height: 50px;
+  border-right: 1px solid rgb(180, 180, 180);
+  border-left: 1px solid rgb(180, 180, 180);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.lower-part {
+  display: flex;
+  border-bottom: 0.5px solid rgb(205, 205, 205);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-part ul {
+  display: flex;
+}
+.lower-part ul li {
+  display: flex;
+  padding-left: 50px;
+  list-style: none;
+}
+.lower-part ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+/* Home */
+
+.home-section {
+  display: flex;
+}
+
+.home-texts-container {
+  padding: 40px;
+  margin-left: 50px;
+  width: 32rem;
+}
+
+.world-news-button {
+  padding: 5px;
+  border-radius: 50px;
+  border: 0.3px solid rgb(205, 205, 205);
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.home-text-main-heading {
+  font-size: 40px;
+  font-weight: 400;
+}
+.home-text-description {
+  font-size: 18px;
+  margin-top: 170px;
+}
+
+.home-text-description p {
+  margin-top: 21px;
+  font-size: 15px;
+}
+
+.home-page-image-container {
+  padding: 50px;
+}
+
+.home-page-image-container img {
+  width: 52rem;
+}
+.home-page-image-container img:hover {
+  transform: scale(1.1);
+}
+
+.extended-section {
+  margin-left: 80px;
+  padding: 50px;
+  display: flex;
+}
+.home-cards {
+  width: 27rem;
+}
+
+.home-cards img {
+  width: 25rem;
+  border-radius: 5px;
+}
+.home-cards img:hover {
+  transform: scale(1.1);
+}
+
+.home-cards h1 {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.home-cards h2 {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 300;
+  width: 24rem;
+}
+.home-cards p {
+  margin-top: 20px;
+}
+
+/* Editors Choice */
+
+.editor-text-and-cards {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.editor-text-and-cards h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.editor-text-and-cards h1 i {
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+.editors-choice-cards {
+  display: flex;
+  justify-content: center;
+}
+.editors-choice-cards img {
+  border-radius: 5px;
+}
+.editors-choice-cards img:hover {
+  transform: scale(1.1);
+}
+.editors-choice-cards .editor-cards-1,
+.editor-cards-2 {
+  display: flex;
+  padding: 20px;
+  padding-top: 0px;
+  flex-flow: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+.editors-choice-cards h1 {
+  font-size: 20px;
+  width: 300px;
+  margin-top: 20px;
+  color: rgb(66, 66, 66);
+}
+.editors-choice-cards p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: rgb(122, 122, 122);
+}
+.width-full-bike-img img {
+  width: 100%;
+  height: 40rem;
+}
+
+/* World News */
+
+.world-news-container {
+  padding: 100px;
+  padding-top: 0px;
+  display: flex;
+}
+.world-news-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  width: 55rem;
+  margin: auto;
+}
+.world-news-left img {
+  width: 50rem;
+}
+.world-news-left img:hover {
+  transform: scale(1.1);
+}
+
+.world-news-left h2 {
+  width: 50rem;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 300;
+}
+.world-news-left h3 {
+  width: 35rem;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(95, 95, 95);
+  margin-top: 20px;
+  border-right: 2px solid rgb(163, 163, 163);
+  padding: 15px;
+}
+
+.world-news-right {
+  width: 30rem;
+  margin: auto;
+}
+.world-news-right img {
+  width: 25rem;
+  border-radius: 5px;
+}
+
+.world-news-right img:hover {
+  transform: scale(1.1);
+}
+
+.world-news-right h2 {
+  width: 25em;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.world-news-right h3 {
+  width: 28rem;
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(95, 95, 95);
+  margin-top: 10px;
+}
+
+/* Extras */
+
+.img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.img img {
+  margin: 10px;
+  margin-bottom: 0px;
+  padding: 100px;
+  padding-bottom: 0px;
+  background-color: rgb(252, 238, 177);
+  border-radius: 10px;
+}
+
+/*  Footer */
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: 22rem;
+  padding: 70px;
+  display: flex;
+}
+.pages {
+  margin-left: 2rem;
+}
+.common-footer {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 14px;
+}
+.common-footer a {
+  color: rgb(82, 94, 122);
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.category {
+  margin-left: 6rem;
+}
+.resources {
+  margin-left: 6rem;
+}
+
+.footer-with-main-logo {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  height: 5rem;
+}
+
+.footer-border-bottom {
+  width: 100%;
+  background-color: rgb(130, 130, 130);
+  height: 1px;
+}
+.license-text {
+  color: rgb(70, 80, 106);
+  padding-right: 100px;
+  font-size: 15px;
+}
+.socials {
+  width: 50rem;
+  display: flex;
+  justify-content: start;
+  flex-flow: column;
+  align-items: end;
+}
+
+.socials .icons {
+  display: flex;
+  color: white;
+  /* justify-content: flex-end; */
+}
+.socials .icons i {
+  padding: 20px;
+  font-size: 30px;
+}
+.info {
+  color: rgb(82, 94, 122);
+}
+.advertise {
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.advertise:hover {
+  transform: scale(1.02);
+  background-color: wheat;
+}
+
+/* Utilities Classes */
+.border-bottom {
+  border: 0.5px solid rgb(205, 205, 205);
+  margin-top: 20px;
+}
+.home-border-bottom {
+  border: 0.5px solid rgb(205, 205, 205);
+  margin-top: 50px;
+  width: 80rem;
+  margin-left: 10rem;
+}
